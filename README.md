@@ -23,8 +23,7 @@ The fighters names and info will all be supplied in a CSV file in the repo. Ther
   
  **Task two:**
   Create a display/board/screen class, that holds an array of fighters but omits the top left and top right square of the selection screen.
-  The movement of selection needs to wrap around the screen vertically but not horizontally, eg if i was on balrog and i went up i should reach vega, 
-  however if i was on Dhalsim and went right i should stay on Dhalsim.
+
   See https://www.codewars.com/kata/street-fighter-2-character-selection-part-2/python for more info on this.
   e.g. 
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -39,6 +38,8 @@ The fighters names and info will all be supplied in a CSV file in the repo. Ther
   This class should have an init() method that loads all of the fighters into an array or representation that you prefer.
   It should also have move and select methods, think oldschool arcade machines, you get left, right, up, down and select.
   These should tie back to the select/deselect methods in the fighter class to show the movement of selection visually.
+  The movement of selection needs to wrap around the screen vertically but not horizontally, eg if i was on balrog and 
+  i went up i should reach vega, however if i was on Dhalsim and went right i should stay on Dhalsim.
   
  **Task 3:**
   Legit just make a test class with a main method and test the program.
